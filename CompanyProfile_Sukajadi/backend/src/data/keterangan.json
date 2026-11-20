@@ -1,0 +1,30 @@
+[
+  {
+    "keterangan": "Periode simulasi",
+    "penjelasan": "1–31 Oktober 2026"
+  },
+  {
+    "keterangan": "Sifat data",
+    "penjelasan": "Seluruh jumlah penjualan merupakan data fiktif/simulasi, bukan catatan transaksi asli Cafe Sukajadi."
+  },
+  {
+    "keterangan": "Dasar harga",
+    "penjelasan": "Menggunakan harga jual yang tercantum pada file menu yang diunggah."
+  },
+  {
+    "keterangan": "Sumber nama menu dan harga",
+    "penjelasan": "Menu Sukajadi Coffee and Brew (PDF yang diberikan pengguna)."
+  },
+  {
+    "keterangan": "Metode pembentukan jumlah terjual",
+    "penjelasan": "Jumlah terjual dibuat secara acak-terkendali; permintaan akhir pekan disimulasikan lebih tinggi."
+  },
+  {
+    "keterangan": "Cakupan data",
+    "penjelasan": "51 jenis menu; 5,209 unit terjual; 1,448 baris penjualan menu-harian."
+  },
+  {
+    "keterangan": "Batasan penggunaan",
+    "penjelasan": "File menghitung omzet penjualan. Laba bersih belum dapat dihitung karena data HPP, gaji, sewa, listrik, dan biaya operasional tidak tersedia."
+  }
+]

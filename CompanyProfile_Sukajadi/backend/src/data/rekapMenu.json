@@ -1,0 +1,461 @@
+[
+  {
+    "kodeMenu": "M002",
+    "kategori": "Kopi",
+    "namaMenu": "Kopi Susu Sukajadi - Palm Sugar",
+    "hargaSatuan": 25000,
+    "totalTerjual": 261,
+    "totalPendapatan": 6525000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M006",
+    "kategori": "Kopi",
+    "namaMenu": "Dirty Latte",
+    "hargaSatuan": 25000,
+    "totalTerjual": 253,
+    "totalPendapatan": 6325000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M008",
+    "kategori": "Kopi",
+    "namaMenu": "Cafe Latte",
+    "hargaSatuan": 25000,
+    "totalTerjual": 241,
+    "totalPendapatan": 6025000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M007",
+    "kategori": "Kopi",
+    "namaMenu": "Americano",
+    "hargaSatuan": 18000,
+    "totalTerjual": 246,
+    "totalPendapatan": 4428000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M011",
+    "kategori": "Kopi",
+    "namaMenu": "Morefun",
+    "hargaSatuan": 23000,
+    "totalTerjual": 192,
+    "totalPendapatan": 4416000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M001",
+    "kategori": "Kopi",
+    "namaMenu": "Kopi Susu Sukajadi - Tiramisu Caramel",
+    "hargaSatuan": 25000,
+    "totalTerjual": 171,
+    "totalPendapatan": 4275000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M004",
+    "kategori": "Kopi",
+    "namaMenu": "Kopi Susu Sukajadi - Bananarilla",
+    "hargaSatuan": 25000,
+    "totalTerjual": 170,
+    "totalPendapatan": 4250000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M005",
+    "kategori": "Kopi",
+    "namaMenu": "Kopi Susu Sukajadi - Mocchsalt",
+    "hargaSatuan": 25000,
+    "totalTerjual": 160,
+    "totalPendapatan": 4000000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M003",
+    "kategori": "Kopi",
+    "namaMenu": "Kopi Susu Sukajadi - Butterscotch",
+    "hargaSatuan": 25000,
+    "totalTerjual": 147,
+    "totalPendapatan": 3675000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M010",
+    "kategori": "Kopi",
+    "namaMenu": "Mont Blanc",
+    "hargaSatuan": 28000,
+    "totalTerjual": 131,
+    "totalPendapatan": 3668000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M009",
+    "kategori": "Kopi",
+    "namaMenu": "Cappuccino",
+    "hargaSatuan": 20000,
+    "totalTerjual": 180,
+    "totalPendapatan": 3600000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M026",
+    "kategori": "Signature Meals",
+    "namaMenu": "Chicken Blackpaper",
+    "hargaSatuan": 26000,
+    "totalTerjual": 125,
+    "totalPendapatan": 3250000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M013",
+    "kategori": "Non-Kopi",
+    "namaMenu": "Strawberry Escape",
+    "hargaSatuan": 28000,
+    "totalTerjual": 98,
+    "totalPendapatan": 2744000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M049",
+    "kategori": "Menu Nusantara",
+    "namaMenu": "Nasi Daun Jeruk Kulit Crispy",
+    "hargaSatuan": 26000,
+    "totalTerjual": 104,
+    "totalPendapatan": 2704000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M016",
+    "kategori": "Non-Kopi",
+    "namaMenu": "Strawberry Aromatic",
+    "hargaSatuan": 28000,
+    "totalTerjual": 92,
+    "totalPendapatan": 2576000,
+    "hariTerjual": 27
+  },
+  {
+    "kodeMenu": "M020",
+    "kategori": "Milk Base",
+    "namaMenu": "Banana Noir",
+    "hargaSatuan": 25000,
+    "totalTerjual": 101,
+    "totalPendapatan": 2525000,
+    "hariTerjual": 28
+  },
+  {
+    "kodeMenu": "M021",
+    "kategori": "Milk Base",
+    "namaMenu": "Berry Cocoa",
+    "hargaSatuan": 25000,
+    "totalTerjual": 101,
+    "totalPendapatan": 2525000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M028",
+    "kategori": "Signature Meals",
+    "namaMenu": "Nasi Daun Jeruk Kulit Ayam",
+    "hargaSatuan": 26000,
+    "totalTerjual": 91,
+    "totalPendapatan": 2366000,
+    "hariTerjual": 28
+  },
+  {
+    "kodeMenu": "M012",
+    "kategori": "Non-Kopi",
+    "namaMenu": "Kiwi Escape",
+    "hargaSatuan": 25000,
+    "totalTerjual": 94,
+    "totalPendapatan": 2350000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M027",
+    "kategori": "Signature Meals",
+    "namaMenu": "Chicken Sambal Matah",
+    "hargaSatuan": 26000,
+    "totalTerjual": 89,
+    "totalPendapatan": 2314000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M019",
+    "kategori": "Milk Base",
+    "namaMenu": "Matcha Mango",
+    "hargaSatuan": 25000,
+    "totalTerjual": 92,
+    "totalPendapatan": 2300000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M014",
+    "kategori": "Non-Kopi",
+    "namaMenu": "Kiwi Kiss",
+    "hargaSatuan": 23000,
+    "totalTerjual": 98,
+    "totalPendapatan": 2254000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M018",
+    "kategori": "Milk Base",
+    "namaMenu": "Chocolate",
+    "hargaSatuan": 23000,
+    "totalTerjual": 93,
+    "totalPendapatan": 2139000,
+    "hariTerjual": 31
+  },
+  {
+    "kodeMenu": "M015",
+    "kategori": "Non-Kopi",
+    "namaMenu": "White Harmony",
+    "hargaSatuan": 28000,
+    "totalTerjual": 75,
+    "totalPendapatan": 2100000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M017",
+    "kategori": "Milk Base",
+    "namaMenu": "Matcha",
+    "hargaSatuan": 23000,
+    "totalTerjual": 91,
+    "totalPendapatan": 2093000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M034",
+    "kategori": "Snack",
+    "namaMenu": "Mix Plater",
+    "hargaSatuan": 25000,
+    "totalTerjual": 83,
+    "totalPendapatan": 2075000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M047",
+    "kategori": "Menu Nusantara",
+    "namaMenu": "Nasi Paru Tumbar",
+    "hargaSatuan": 26000,
+    "totalTerjual": 74,
+    "totalPendapatan": 1924000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M030",
+    "kategori": "Signature Meals",
+    "namaMenu": "Beef Sambal Matah",
+    "hargaSatuan": 26000,
+    "totalTerjual": 73,
+    "totalPendapatan": 1898000,
+    "hariTerjual": 28
+  },
+  {
+    "kodeMenu": "M035",
+    "kategori": "Snack",
+    "namaMenu": "Risol Mayo",
+    "hargaSatuan": 22000,
+    "totalTerjual": 79,
+    "totalPendapatan": 1738000,
+    "hariTerjual": 28
+  },
+  {
+    "kodeMenu": "M045",
+    "kategori": "Snack",
+    "namaMenu": "Chips & Cheese",
+    "hargaSatuan": 23000,
+    "totalTerjual": 74,
+    "totalPendapatan": 1702000,
+    "hariTerjual": 28
+  },
+  {
+    "kodeMenu": "M029",
+    "kategori": "Signature Meals",
+    "namaMenu": "Beef Blackpaper",
+    "hargaSatuan": 26000,
+    "totalTerjual": 65,
+    "totalPendapatan": 1690000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M033",
+    "kategori": "Snack",
+    "namaMenu": "Tahu Walik",
+    "hargaSatuan": 18000,
+    "totalTerjual": 89,
+    "totalPendapatan": 1602000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M031",
+    "kategori": "Spaghetti",
+    "namaMenu": "Spaghetti Bolognaise",
+    "hargaSatuan": 24000,
+    "totalTerjual": 66,
+    "totalPendapatan": 1584000,
+    "hariTerjual": 27
+  },
+  {
+    "kodeMenu": "M037",
+    "kategori": "Snack",
+    "namaMenu": "Asinan Buah",
+    "hargaSatuan": 20000,
+    "totalTerjual": 77,
+    "totalPendapatan": 1540000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M046",
+    "kategori": "Snack",
+    "namaMenu": "Ketan Susu",
+    "hargaSatuan": 15000,
+    "totalTerjual": 99,
+    "totalPendapatan": 1485000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M032",
+    "kategori": "Spaghetti",
+    "namaMenu": "Spaghetti Carbonara",
+    "hargaSatuan": 25000,
+    "totalTerjual": 59,
+    "totalPendapatan": 1475000,
+    "hariTerjual": 27
+  },
+  {
+    "kodeMenu": "M024",
+    "kategori": "Tea Series",
+    "namaMenu": "Sunny Peach",
+    "hargaSatuan": 18000,
+    "totalTerjual": 78,
+    "totalPendapatan": 1404000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M023",
+    "kategori": "Tea Series",
+    "namaMenu": "Strawberry Ruby",
+    "hargaSatuan": 18000,
+    "totalTerjual": 77,
+    "totalPendapatan": 1386000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M039",
+    "kategori": "Snack",
+    "namaMenu": "Terong Raos",
+    "hargaSatuan": 20000,
+    "totalTerjual": 67,
+    "totalPendapatan": 1340000,
+    "hariTerjual": 26
+  },
+  {
+    "kodeMenu": "M025",
+    "kategori": "Tea Series",
+    "namaMenu": "Floral Gold",
+    "hargaSatuan": 18000,
+    "totalTerjual": 71,
+    "totalPendapatan": 1278000,
+    "hariTerjual": 30
+  },
+  {
+    "kodeMenu": "M051",
+    "kategori": "Noodle",
+    "namaMenu": "Indomie Sambal Matah",
+    "hargaSatuan": 18000,
+    "totalTerjual": 68,
+    "totalPendapatan": 1224000,
+    "hariTerjual": 26
+  },
+  {
+    "kodeMenu": "M022",
+    "kategori": "Tea Series",
+    "namaMenu": "Lychee Mist",
+    "hargaSatuan": 18000,
+    "totalTerjual": 67,
+    "totalPendapatan": 1206000,
+    "hariTerjual": 23
+  },
+  {
+    "kodeMenu": "M043",
+    "kategori": "Pastry",
+    "namaMenu": "Strawberry/Greentea/Vanilla Croissant",
+    "hargaSatuan": 26000,
+    "totalTerjual": 45,
+    "totalPendapatan": 1170000,
+    "hariTerjual": 27
+  },
+  {
+    "kodeMenu": "M048",
+    "kategori": "Menu Nusantara",
+    "namaMenu": "Nasi Ceker Pedas",
+    "hargaSatuan": 18000,
+    "totalTerjual": 62,
+    "totalPendapatan": 1116000,
+    "hariTerjual": 28
+  },
+  {
+    "kodeMenu": "M036",
+    "kategori": "Snack",
+    "namaMenu": "Cireng",
+    "hargaSatuan": 15000,
+    "totalTerjual": 73,
+    "totalPendapatan": 1095000,
+    "hariTerjual": 27
+  },
+  {
+    "kodeMenu": "M038",
+    "kategori": "Snack",
+    "namaMenu": "Dimsum Keju Goreng",
+    "hargaSatuan": 20000,
+    "totalTerjual": 53,
+    "totalPendapatan": 1060000,
+    "hariTerjual": 29
+  },
+  {
+    "kodeMenu": "M044",
+    "kategori": "Pastry",
+    "namaMenu": "Garlic Bread",
+    "hargaSatuan": 24000,
+    "totalTerjual": 43,
+    "totalPendapatan": 1032000,
+    "hariTerjual": 22
+  },
+  {
+    "kodeMenu": "M040",
+    "kategori": "Pasta",
+    "namaMenu": "Macaroni Bolognese",
+    "hargaSatuan": 23000,
+    "totalTerjual": 44,
+    "totalPendapatan": 1012000,
+    "hariTerjual": 26
+  },
+  {
+    "kodeMenu": "M050",
+    "kategori": "Noodle",
+    "namaMenu": "Indomie Sambal Dabu",
+    "hargaSatuan": 18000,
+    "totalTerjual": 54,
+    "totalPendapatan": 972000,
+    "hariTerjual": 22
+  },
+  {
+    "kodeMenu": "M042",
+    "kategori": "Pasta",
+    "namaMenu": "Macaroni Chicken",
+    "hargaSatuan": 25000,
+    "totalTerjual": 37,
+    "totalPendapatan": 925000,
+    "hariTerjual": 20
+  },
+  {
+    "kodeMenu": "M041",
+    "kategori": "Pasta",
+    "namaMenu": "Beef & Egg Cheese",
+    "hargaSatuan": 24000,
+    "totalTerjual": 36,
+    "totalPendapatan": 864000,
+    "hariTerjual": 17
+  }
+]

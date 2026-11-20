@@ -1,0 +1,79 @@
+[
+  {
+    "kategori": "Kopi",
+    "totalTerjual": 2152,
+    "totalPendapatan": 51187000,
+    "jumlahMenu": 11,
+    "persentasePendapatan": 42.23
+  },
+  {
+    "kategori": "Snack",
+    "totalTerjual": 694,
+    "totalPendapatan": 13637000,
+    "jumlahMenu": 9,
+    "persentasePendapatan": 11.25
+  },
+  {
+    "kategori": "Non-Kopi",
+    "totalTerjual": 457,
+    "totalPendapatan": 12024000,
+    "jumlahMenu": 5,
+    "persentasePendapatan": 9.92
+  },
+  {
+    "kategori": "Milk Base",
+    "totalTerjual": 478,
+    "totalPendapatan": 11582000,
+    "jumlahMenu": 5,
+    "persentasePendapatan": 9.55
+  },
+  {
+    "kategori": "Signature Meals",
+    "totalTerjual": 443,
+    "totalPendapatan": 11518000,
+    "jumlahMenu": 5,
+    "persentasePendapatan": 9.5
+  },
+  {
+    "kategori": "Menu Nusantara",
+    "totalTerjual": 240,
+    "totalPendapatan": 5744000,
+    "jumlahMenu": 3,
+    "persentasePendapatan": 4.74
+  },
+  {
+    "kategori": "Tea Series",
+    "totalTerjual": 293,
+    "totalPendapatan": 5274000,
+    "jumlahMenu": 4,
+    "persentasePendapatan": 4.35
+  },
+  {
+    "kategori": "Spaghetti",
+    "totalTerjual": 125,
+    "totalPendapatan": 3059000,
+    "jumlahMenu": 2,
+    "persentasePendapatan": 2.52
+  },
+  {
+    "kategori": "Pasta",
+    "totalTerjual": 117,
+    "totalPendapatan": 2801000,
+    "jumlahMenu": 3,
+    "persentasePendapatan": 2.31
+  },
+  {
+    "kategori": "Pastry",
+    "totalTerjual": 88,
+    "totalPendapatan": 2202000,
+    "jumlahMenu": 2,
+    "persentasePendapatan": 1.82
+  },
+  {
+    "kategori": "Noodle",
+    "totalTerjual": 122,
+    "totalPendapatan": 2196000,
+    "jumlahMenu": 2,
+    "persentasePendapatan": 1.81
+  }
+]
