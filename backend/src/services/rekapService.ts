@@ -1,16 +1,9 @@
-import fs from "node:fs";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const dataDir = path.resolve(__dirname, "../data");
-
-function readJsonFile<T>(filename: string): T {
-  const filePath = path.join(dataDir, filename);
-  const data = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(data) as T;
-}
+import indikatorData from "../data/indikator.json" with { type: "json" };
+import keteranganData from "../data/keterangan.json" with { type: "json" };
+import penjualanDetailData from "../data/penjualanDetail.json" with { type: "json" };
+import rekapHarianData from "../data/rekapHarian.json" with { type: "json" };
+import rekapKategoriData from "../data/rekapKategori.json" with { type: "json" };
+import rekapMenuData from "../data/rekapMenu.json" with { type: "json" };
 
 export interface IndikatorData {
   Periode: string;
@@ -62,9 +55,9 @@ export interface KeteranganItem {
 
 export const rekapService = {
   getOverview() {
-    const indikator = readJsonFile<IndikatorData>("indikator.json");
-    const harian = readJsonFile<RekapHarianItem[]>("rekapHarian.json");
-    const menu = readJsonFile<RekapMenuItem[]>("rekapMenu.json");
+    const indikator: IndikatorData = indikatorData;
+    const harian: RekapHarianItem[] = rekapHarianData;
+    const menu: RekapMenuItem[] = rekapMenuData;
 
     // Hitung statistik tambahan yang berguna
     const totalHari = harian.length;
@@ -98,7 +91,7 @@ export const rekapService = {
   },
 
   getRekapHarian() {
-    return readJsonFile<RekapHarianItem[]>("rekapHarian.json");
+    return rekapHarianData;
   },
 
   getRekapMenu(options: {
@@ -108,7 +101,7 @@ export const rekapService = {
     order?: "asc" | "desc";
     limit?: number;
   }) {
-    let items = readJsonFile<RekapMenuItem[]>("rekapMenu.json");
+    let items: RekapMenuItem[] = [...rekapMenuData];
 
     if (options.kategori && options.kategori !== "all") {
       items = items.filter(
@@ -151,7 +144,7 @@ export const rekapService = {
   },
 
   getRekapKategori() {
-    return readJsonFile<RekapKategoriItem[]>("rekapKategori.json");
+    return rekapKategoriData;
   },
 
   getTransaksiDetail(options: {
@@ -163,7 +156,7 @@ export const rekapService = {
     sortBy?: string;
     order?: "asc" | "desc";
   }) {
-    let items = readJsonFile<PenjualanDetailItem[]>("penjualanDetail.json");
+    let items: PenjualanDetailItem[] = [...penjualanDetailData];
 
     if (options.tanggal) {
       items = items.filter((d) => d.tanggal.startsWith(options.tanggal!));
@@ -220,6 +213,6 @@ export const rekapService = {
   },
 
   getKeterangan() {
-    return readJsonFile<KeteranganItem[]>("keterangan.json");
+    return keteranganData;
   },
 };

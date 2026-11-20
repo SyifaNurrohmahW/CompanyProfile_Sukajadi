@@ -3,10 +3,13 @@ import express from "express";
 import rekapRoutes from "./routes/rekapRoutes.js";
 
 const app = express();
+const frontendOrigin =
+  process.env.FRONTEND_URL?.replace(/\/+$/, "") ??
+  (process.env.NODE_ENV === "production" ? false : "http://localhost:3000");
 
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL ?? "http://localhost:3000",
+    origin: frontendOrigin,
     credentials: true,
   }),
 );
