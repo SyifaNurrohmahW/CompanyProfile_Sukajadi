@@ -5,7 +5,24 @@ import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import { Tag } from "primereact/tag";
 
-const apiUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:4000";
+const apiUrl =
+  process.env.NEXT_PUBLIC_API_URL?.replace(/\/+$/, "") ||
+  (process.env.NODE_ENV === "development" ? "http://localhost:4000" : "");
+
+async function fetchApi(path: string) {
+  if (!apiUrl) {
+    throw new Error(
+      "URL backend belum dikonfigurasi. Isi NEXT_PUBLIC_API_URL di Vercel lalu deploy ulang.",
+    );
+  }
+
+  const response = await fetch(`${apiUrl}${path}`);
+  if (!response.ok) {
+    throw new Error(`Backend mengembalikan HTTP ${response.status} untuk ${path}.`);
+  }
+
+  return response.json();
+}
 
 export default function RekapPage() {
   const [activeTab, setActiveTab] = useState<
@@ -26,6 +43,7 @@ export default function RekapPage() {
   const [transaksiLimit, setTransaksiLimit] = useState<number>(15);
   const [transaksiSearch, setTransaksiSearch] = useState<string>("");
   const [loading, setLoading] = useState<boolean>(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   // Fetch initial data
   useEffect(() => {
@@ -33,11 +51,11 @@ export default function RekapPage() {
       try {
         setLoading(true);
         const [resOver, resHar, resMen, resKat, resKet] = await Promise.all([
-          fetch(`${apiUrl}/api/rekap/overview`).then((r) => r.json()),
-          fetch(`${apiUrl}/api/rekap/harian`).then((r) => r.json()),
-          fetch(`${apiUrl}/api/rekap/menu`).then((r) => r.json()),
-          fetch(`${apiUrl}/api/rekap/kategori`).then((r) => r.json()),
-          fetch(`${apiUrl}/api/rekap/keterangan`).then((r) => r.json()),
+          fetchApi("/api/rekap/overview"),
+          fetchApi("/api/rekap/harian"),
+          fetchApi("/api/rekap/menu"),
+          fetchApi("/api/rekap/kategori"),
+          fetchApi("/api/rekap/keterangan"),
         ]);
 
         if (resOver.success) setOverview(resOver.data);
@@ -47,6 +65,9 @@ export default function RekapPage() {
         if (resKet.success) setKeterangan(resKet.data);
       } catch (err) {
         console.error("Gagal memuat rekap:", err);
+        setLoadError(
+          err instanceof Error ? err.message : "Terjadi kesalahan saat memuat data.",
+        );
       } finally {
         setLoading(false);
       }
@@ -63,7 +84,7 @@ export default function RekapPage() {
           limit: String(transaksiLimit),
           search: transaksiSearch,
         });
-        const res = await fetch(`${apiUrl}/api/rekap/transaksi?${query.toString()}`).then((r) => r.json());
+        const res = await fetchApi(`/api/rekap/transaksi?${query.toString()}`);
         if (res.success) {
           setTransaksiData(res.data);
           setTransaksiTotal(res.pagination.totalCount);
@@ -145,6 +166,23 @@ export default function RekapPage() {
           <div style={{ textAlign: "center", padding: "5rem 0", color: "var(--text-muted)" }}>
             <i className="pi pi-spin pi-spinner" style={{ fontSize: "2rem", color: "var(--accent)" }} />
             <p style={{ marginTop: "1rem" }}>Memuat rekapan data dari backend Express...</p>
+          </div>
+        ) : loadError ? (
+          <div
+            role="alert"
+            style={{
+              padding: "1.5rem",
+              borderRadius: "var(--radius-lg)",
+              border: "1px solid var(--border-light)",
+              backgroundColor: "#ffffff",
+              color: "var(--text-secondary)",
+            }}
+          >
+            <strong>Data rekap belum dapat dimuat.</strong>
+            <p style={{ marginTop: "0.5rem" }}>{loadError}</p>
+            <p style={{ marginTop: "0.5rem" }}>
+              Periksa URL backend dan pengaturan CORS pada kedua project Vercel.
+            </p>
           </div>
         ) : (
           <div>
